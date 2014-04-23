@@ -1,5 +1,5 @@
 String.toLocaleString({
-    
+
 	"en": {
 		"%game-intro"           : "Join tiles and destroy <strong>EMPIRE!</strong>",
 		"%restart-button"       : "New Game",
@@ -36,7 +36,7 @@ String.toLocaleString({
     '%s1024'                : 'yoda',
     '%s2048'                : 'death star'
 	},
-	
+
 	"it": {
 		"%game-intro"           : "Unisci le tessere e distruggi l&#x27;<strong>IMPERO!</strong>",
 		"%restart-button"       : "Nuova Partita",

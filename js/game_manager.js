@@ -37,7 +37,7 @@ GameManager.prototype.crowd = function () {
       counter++;
       var value = Math.pow(2, counter);
       var tile = new Tile({ x: j, y: i }, value);
-      if (value <= 2048) this.grid.insertTile(tile);    
+      if (value <= 2048) this.grid.insertTile(tile);
     }
   }
 };
@@ -82,7 +82,7 @@ GameManager.prototype.setup = function () {
 
   // Localize page elements
   this.localizeElements();
-  
+
   // Fill legend
   this.fillLegend();
 
@@ -109,7 +109,7 @@ GameManager.prototype.localizeElements = function () {
 
 // Fill legend
 GameManager.prototype.fillLegend = function () {
-  
+
   var legend = document.getElementsByClassName("tile-legend");
   for (var i = 1; i <= 11; i++) {
     var exp = Math.pow(2, i);
@@ -118,7 +118,7 @@ GameManager.prototype.fillLegend = function () {
     var cell = document.createElement("div");
     var img = document.createElement("img");
     var p = document.createElement("p");
-    row.classList.add('legend-row');    
+    row.classList.add('legend-row');
     grid.classList.add('legend-grid');
     cell.classList.add('legend-cell');
     cell.classList.add('cell-' + exp);
@@ -131,7 +131,7 @@ GameManager.prototype.fillLegend = function () {
 
     legend[0].appendChild(row);
   }
-  
+
 };
 
 // Set up the initial tiles to start the game with
