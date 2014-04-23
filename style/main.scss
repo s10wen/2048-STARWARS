@@ -528,26 +528,50 @@ hr {
 
   html, body {
     font-size: 15px;
+    background-image: none;
+    background-color: transparent;
   }
 
   body {
     margin: 0;
     padding: 20px;
+    background: #000;
+    &:before {
+        content: '';
+        background: url(img/top-bg.jpg) no-repeat;
+        opacity: 0.5;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+  }
+
+  .title-container {
+    width: 100%;
   }
 
   h1.title {
-    font-size: 25px;
-    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    float: none;
     &:after {
-        bottom: -10px;
-        width: 138px;
-        font-size: 25px;
+        bottom: -15px;
     }
   }
 
   .container {
     width: $field-width;
     margin: 0 auto;
+  }
+
+  .scores-container,
+  .title-container {
+      float: none;
+      text-align: center;
+      margin: 5px auto;
   }
 
   .score-container, .best-container {
