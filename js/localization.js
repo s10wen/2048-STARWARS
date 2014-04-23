@@ -34,7 +34,8 @@ String.toLocaleString({
         '%s256'                 : 'c-3po',
         '%s512'                 : 'r2-d2',
         '%s1024'                : 'yoda',
-        '%s2048'                : 'death star'
+        '%s2048'                : 'death star',
+        '%s4096'                : 'admiral ackbar'
     },
 
     "it": {
@@ -71,7 +72,8 @@ String.toLocaleString({
         '%p256'                 : 'c-3po',
         '%p512'                 : 'r2-d2',
         '%p1024'                : 'yoda',
-        '%p2048'                : 'morte nera'
+        '%p2048'                : 'morte nera',
+        '%p4096'                : 'ackbar ammiraglio'
     }
 
 });
